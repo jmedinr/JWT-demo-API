@@ -14,7 +14,6 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
 public class DemoApplication {
 
 	public static void main(String[] args) {
-
 		SpringApplication.run(DemoApplication.class, args);
 	}
 
@@ -31,6 +30,4 @@ public class DemoApplication {
 					.anyRequest().authenticated();
 		}
 	}
-
-
 }
